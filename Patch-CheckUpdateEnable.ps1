@@ -1,8 +1,8 @@
 param(
 [String]$ServerListVariableName = "",
-[String]$workspaceID = "5ba541f4-9db7-45f6-b9cd-5175be96348c",
-[String]$AutomationAccount = "Automate-3742010c-b092-4f45-9448-d0ba8d14c7b8-EUS",
-[String]$Resourcegroup = "DefaultResourceGroup-EUS"
+[String]$workspaceID = "",
+[String]$AutomationAccount = "",
+[String]$Resourcegroup = ""
 )
 
 try {
